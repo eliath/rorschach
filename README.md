@@ -1,9 +1,9 @@
-# eliath-rorschach
+# rorschach
 
 built using Vue 3 + Vite
 
-static site which draws jwz's rorschach screensaver
-
+static site which draws jwz's rorschach screensaver (see
+[xscreensaver](https://www.jwz.org/xscreensaver/))
 
 ## setup
 
