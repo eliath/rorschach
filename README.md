@@ -5,20 +5,25 @@ built using Vue 3 + Vite
 static site which draws jwz's rorschach screensaver (see
 [xscreensaver](https://www.jwz.org/xscreensaver/))
 
-## setup
+## development
 
     npm install
 
-## development/hot reloading
+### serve local + hot reload
 
     npm run dev
 
-## compile for prod
+### linting
+
+    npm run lint
+
+### compile for prod
 
     npm run build
 
-the upload the dist/ folder to s3
+## deploy
 
-## linting
+served as a static site from s3 bucket
 
-    npm run lint
+1. compile
+2. upload dist/ folder to s3
